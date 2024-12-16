@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StepInStyle</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>SteppInStyle</h1>
+    <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Search for shoes..."/>
+        <button id="searchButton">Search</button>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+                <li><a href="men.html">Men </a></li>
+                <li><a href="women.html">Women </a></li>
+                <li><a href="kids.html">Kids </a></li>
+                <li><a href="cart.html">Cart </a></li>
+                <li><a href="#">Contact Us </a></li>
+                <li><a href="#">Login/Signup </a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Welcome to StepInStyle!</h2>
+    <p>Discover the latest trends in footwear for Men, Women, and Kids.</p>
+ </main>
+
+  <section id="Women">
+    <h2>Women's Shoes</h2>
+    <div class="product">
+        <img src="images/doll shoes.jpg" alt="Doll Shoes">
+        <h3>Doll Shoes</h3>
+        <p>$4.70</p>
+        <button onclick="addToCart('Doll Shoes', 4.70)">Add to Cart</button>
+        <a href="#">View Details</a>
+    </div>
+
+    <div class="product">
+        <img src="images/sandals.jpg" alt="Sandals">
+        <h3>Sandals</h3>
+        <p>$3.20</p>
+        <button onclick="addToCart('Sandals', 3.20)">Add to Cart</button>
+        <a href="#">View Details</a>
+    </div>
+    <div class="product">
+      <img src="images/Mules.jpg" alt="Mules">
+      <h3>mules</h3>
+      <p>$4.00</p>
+      <button onclick="addToCart('Mules', 4.00)">Add to Cart</button>
+      <a href="#">View Details</a>
+  </div>
+  
+</section>
+
+<section id="contact-info">
+    <h2>Contact us</h2>
+    <div class="contact-details">
+        <p><strong>Phone:</strong> <a href="tel:+254758566765">+254 758 566 765</a></p>
+        <p><strong>Email:</strong> <a href="email to:steppinstyle@outlook.com">steppinstyle@outlook.com</a></p>
+    
+    </div>
+    <div class="social media">
+        <h3>Follow us</h3>
+        <a href="#" aria-label="Facebook"><img src="images/facebook.jpeg" alt="Facebook"></a>
+        <a href="#" aria-label="Instagram"><img src="images/instagram.jpeg" alt="Instagram"></a>
+        <a href="#" aria-label="Tiktok"><img src="images/tiktok.png" alt="Tiktok"></a>
+    </div>
+</section>
+  <footer>
+    <p>&copy; 2024 SteppInStyle. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
